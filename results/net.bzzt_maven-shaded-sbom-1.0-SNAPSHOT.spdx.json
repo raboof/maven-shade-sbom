@@ -1,0 +1,181 @@
+{
+  "SPDXID" : "SPDXRef-DOCUMENT",
+  "spdxVersion" : "SPDX-2.3",
+  "creationInfo" : {
+    "created" : "2024-03-06T14:27:56Z",
+    "creators" : [ "Tool: spdx-maven-plugin" ],
+    "licenseListVersion" : "3.23"
+  },
+  "name" : "maven-shaded-sbom",
+  "dataLicense" : "CC0-1.0",
+  "externalDocumentRefs" : [ {
+    "externalDocumentId" : "DocumentRef-org.apache.commonscommons-compress1.26.0",
+    "checksum" : {
+      "algorithm" : "SHA1",
+      "checksumValue" : "aded874bb1534ab28737d3380f3eccde31bb8081"
+    },
+    "spdxDocument" : "http://spdx.org/spdxpackages/Apache%20Commons%20Compress-1.26.0"
+  } ],
+  "annotations" : [ {
+    "annotationDate" : "2024-03-06T14:27:56Z",
+    "annotationType" : "OTHER",
+    "annotator" : "Tool: spdx-maven-plugin",
+    "comment" : "External document ref 'DocumentRef-org.apache.commonscommons-compress1.26.0' created for artifact org.apache.commonscommons-compress1.26.0"
+  } ],
+  "documentNamespace" : "http://spdx.org/spdxpackages/net.bzzt_maven-shaded-sbom-1.0-SNAPSHOT",
+  "packages" : [ {
+    "SPDXID" : "SPDXRef-gnrtd0",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Apache Commons Email provides an API for sending email, simplifying the JavaMail API.",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "https://commons.apache.org/proper/commons-email/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "Apache Commons Email",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "Apache Commons Email provides an API for sending email, simplifying the JavaMail API.",
+    "versionInfo" : "1.6.0"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd1",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Jakarta Mail API",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://eclipse-ee4j.github.io/mail/jakarta.mail",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "(BSD-3-Clause AND GPL-2.0-with-classpath-exception AND EPL-2.0)",
+    "name" : "Jakarta Mail API",
+    "originator" : "Organization:Oracle",
+    "summary" : "Jakarta Mail API",
+    "versionInfo" : "1.6.7"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd2",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "JavaBeans Activation Framework",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "https://github.com/eclipse-ee4j/jaf/jakarta.activation",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "BSD-3-Clause",
+    "name" : "JavaBeans Activation Framework",
+    "originator" : "Organization:Eclipse Foundation",
+    "summary" : "JavaBeans Activation Framework",
+    "versionInfo" : "1.2.1"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd3",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Apache Commons Compress defines an API for working with\ncompression and archive formats. These include bzip2, gzip, pack200,\nLZMA, XZ, Snappy, traditional Unix Compress, DEFLATE, DEFLATE64, LZ4,\nBrotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "https://commons.apache.org/proper/commons-compress/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "Apache Commons Compress",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "Apache Commons Compress defines an API for working with\ncompression and archive formats. These include bzip2, gzip, pack200,\nLZMA, XZ, Snappy, traditional Unix Compress, DEFLATE, DEFLATE64, LZ4,\nBrotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.",
+    "versionInfo" : "1.26.0"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd4",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "The Apache Commons IO library contains utility classes, stream implementations, file filters,\nfile comparators, endian transformation classes, and much more.",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "https://commons.apache.org/proper/commons-io/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "Apache Commons IO",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "The Apache Commons IO library contains utility classes, stream implementations, file filters,\nfile comparators, endian transformation classes, and much more.",
+    "versionInfo" : "2.15.1"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd5",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Apache Commons Lang, a package of Java utility classes for the\n  classes that are in java.lang's hierarchy, or are considered to be so\n  standard as to justify existence in java.lang.",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "https://commons.apache.org/proper/commons-lang/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "Apache Commons Lang",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "Apache Commons Lang, a package of Java utility classes for the\n  classes that are in java.lang's hierarchy, or are considered to be so\n  standard as to justify existence in java.lang.",
+    "versionInfo" : "3.14.0"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd6",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ed309c2dfe92668b27a4ff28d95094d6ba964e2c"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : true,
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "licenseInfoFromFiles" : [ "NOASSERTION" ],
+    "name" : "maven-shaded-sbom",
+    "packageFileName" : "maven-shaded-sbom-1.0-SNAPSHOT.jar",
+    "packageVerificationCode" : {
+      "packageVerificationCodeValue" : "ace54932587a7da6d11fb44f1ee86eb01e73697f"
+    },
+    "primaryPackagePurpose" : "LIBRARY",
+    "versionInfo" : "1.0-SNAPSHOT"
+  } ],
+  "files" : [ {
+    "SPDXID" : "SPDXRef-gnrtd7",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "6e1911aa83cbae1445dbc35ec7f99fbc106ecd8d"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/java/net/bzzt/App.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  } ],
+  "relationships" : [ {
+    "spdxElementId" : "SPDXRef-DOCUMENT",
+    "relationshipType" : "DESCRIBES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd6",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd6",
+    "relationshipType" : "DYNAMIC_LINK",
+    "relatedSpdxElement" : "SPDXRef-gnrtd3",
+    "comment" : "Relationship based on Maven POM file dependency information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd6",
+    "relationshipType" : "DYNAMIC_LINK",
+    "relatedSpdxElement" : "SPDXRef-gnrtd0",
+    "comment" : "Relationship based on Maven POM file dependency information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd6",
+    "relationshipType" : "DYNAMIC_LINK",
+    "relatedSpdxElement" : "SPDXRef-gnrtd5",
+    "comment" : "Relationship based on Maven POM file dependency information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd6",
+    "relationshipType" : "DYNAMIC_LINK",
+    "relatedSpdxElement" : "SPDXRef-gnrtd4",
+    "comment" : "Relationship based on Maven POM file dependency information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd6",
+    "relationshipType" : "DYNAMIC_LINK",
+    "relatedSpdxElement" : "SPDXRef-gnrtd2",
+    "comment" : "Relationship based on Maven POM file dependency information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd6",
+    "relationshipType" : "DYNAMIC_LINK",
+    "relatedSpdxElement" : "SPDXRef-gnrtd1",
+    "comment" : "Relationship based on Maven POM file dependency information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd6",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd7"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd7",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd6",
+    "comment" : ""
+  } ]
+}
