@@ -14,10 +14,14 @@ Likely it would make sense to make use of the
 [assembly](https://cyclonedx.org/use-cases/#assembly) concept
 in CycloneDX?
 
+Tracking in [cyclonedx-maven-plugin#472](https://github.com/CycloneDX/cyclonedx-maven-plugin/issues/472)
+
 ### SPDX
 
 In SPDX it looks like the `relationshipType` for shaded/embedded
 artifacts should be `CONTAINS` instead of `DYNAMIC_LINK`.
+
+Tracking in [spdx-maven-plugin#159](https://github.com/spdx/spdx-maven-plugin/issues/159)
 
 ## Use
 
